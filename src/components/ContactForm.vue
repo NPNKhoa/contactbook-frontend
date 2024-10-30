@@ -121,7 +121,7 @@ export default {
     },
     Cancel() {
       const reply = window.confirm(
-        'You have unsaved changes! Do you want toleave?'
+        'You have unsaved changes! Do you want to leave?'
       );
       if (!reply) {
         return false;
